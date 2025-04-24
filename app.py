@@ -68,14 +68,6 @@ def save_data():
     with open('bottleneck_alerts.json', 'w') as f:
         json.dump(st.session_state.bottleneck_alerts, f, indent=4)
         # Save API settings
-    settings = {
-        "api_key": st.session_state.api_key,
-        "slack_webhook": st.session_state.slack_webhook,
-        "email_settings": st.session_state.email_settings
-    }
-    with open('settings.json', 'w') as f:
-        json.dump(settings, f)
-
 
 # Function to load data from files
 def load_data():
@@ -103,16 +95,6 @@ def load_data():
     if os.path.exists('bottleneck_alerts.json'):
         with open('bottleneck_alerts.json', 'r') as f:
             st.session_state.bottleneck_alerts = json.load(f)
-    # Load API settings
-    if os.path.exists('settings.json'):
-        with open('settings.json', 'r') as f:
-            settings = json.load(f)
-            if 'api_key' in settings:
-                st.session_state.api_key = settings['api_key']
-            if 'slack_webhook' in settings:
-                st.session_state.slack_webhook = settings['slack_webhook']
-            if 'email_settings' in settings:
-                st.session_state.email_settings = settings['email_settings']
 
 # Load existing data when the app starts
 load_data()
