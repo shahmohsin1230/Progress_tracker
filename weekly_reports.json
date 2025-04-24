@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "date": "2025-04-24",
+        "period": "2025-04-17 to 2025-04-24",
+        "kpis": {
+            "total_tasks": 2,
+            "completed_tasks": 1,
+            "completion_rate": 0.5,
+            "on_time_completion_rate": 1.0,
+            "total_hours": 17.0,
+            "team_performance": {
+                "Mohsin Shah": {
+                    "total_tasks": 2,
+                    "completed_tasks": 1,
+                    "completion_rate": 0.5,
+                    "on_time_rate": 1.0,
+                    "hours_spent": 17.0
+                },
+                "Shaheer Sultan": {
+                    "total_tasks": 0,
+                    "completed_tasks": 0,
+                    "completion_rate": 0,
+                    "on_time_rate": 0,
+                    "hours_spent": 0.0
+                }
+            },
+            "project_status": {
+                "Oscar AI": {
+                    "total_tasks": 2,
+                    "completed_tasks": 1,
+                    "completion_rate": 0.5,
+                    "hours_spent": 17.0
+                }
+            }
+        },
+        "bottlenecks": [],
+        "ai_summary": "**Weekly Project Summary Report**\n\n**Report Date:** 2025-04-24  \n**Report Period:** 2025-04-17 to 2025-04-24\n\n---\n\n**1. Executive Summary**\n\nDuring the week covered by this report, progress was made on the Oscar AI project with significant focus on task completion and integration efforts. Out of the two primary tasks scheduled, one has been successfully completed, marking a healthy overall project trajectory. No significant bottlenecks were encountered.\n\n**2. Progress Overview**\n\n- **Total Tasks:** 2\n- **Tasks Completed:** 1\n- **Completion Rate:** 50%\n- **On-Time Completion Rate:** 100%\n- **Total Hours Spent:** 17.0\n\nThe project, \"Oscar AI,\" is on track with a continued emphasis on maintaining high productivity levels and adhering to deadlines.\n\n**3. Completed Tasks**\n\n- **Agent Creation**\n  - **Description:** Created an AI agent on ElevenLabs for Oscar AI.\n  - **Assigned To:** Mohsin Shah\n  - **Priority:** High\n  - **Completion Date:** 2025-04-24\n  - **Hours Spent:** 5.0\n\n**4. In-Progress Tasks**\n\n- **Integration**\n  - **Description:** Frontend and backend integration for Oscar AI.\n  - **Assigned To:** Mohsin Shah\n  - **Priority:** High\n  - **Deadline:** 2025-04-30\n  - **Hours Spent:** 12.0\n\n**5. Delays and Blockers**\n\nCurrently, there are no noted delays or blockers potentially impacting project timelines. Task \"Integration\" remains in progress, aligned with its deadline.\n\n**6. Team Performance Metrics**\n\n- **Mohsin Shah (AI Engineer)**\n  - **Total Tasks:** 2\n  - **Tasks Completed:** 1\n  - **Completion Rate:** 50%\n  - **On-Time Rate:** 100%\n  - **Hours Spent:** 17.0 hours\n\n- **Shaheer Sultan (COO)**\n  - No tasks assigned during this period.\n\n**7. Recommendations**\n\n- **Task Management:** Continued monitoring to ensure timely completion of the ongoing \"Integration\" task to maintain project momentum.\n- **Resource Allocation:** Consider equitably distributing tasks in future phases to optimize team contributions and resource utilization.\n- **Communication:** Strengthen communication and ensure proactive check-ins to anticipate and mitigate potential delays.\n\n---\n\nThis report reflects the project's strong adherence to deadlines and quality standards as it transitions from creation to integration stages. We should continue to build on these efforts to ensure successful project completion within the set framework."
+    }
+]

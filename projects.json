@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Oscar AI",
+        "description": "Oscar AI is an outbounding AI real estate calling agent",
+        "start_date": "2025-03-01",
+        "deadline": "2025-04-30",
+        "status": "In Progress",
+        "priority": "High",
+        "date_created": "2025-04-24"
+    }
+]

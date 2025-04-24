@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Mohsin Shah",
+        "role": "AI Engineer",
+        "email": "mohsinshah1230@gmail.com",
+        "skills": [
+            "NO"
+        ],
+        "date_added": "2025-04-24"
+    },
+    {
+        "id": 2,
+        "name": "Shaheer Sultan",
+        "role": "COO",
+        "email": "shrsultan334@gmail.com",
+        "skills": [
+            "NO"
+        ],
+        "date_added": "2025-04-24"
+    }
+]
